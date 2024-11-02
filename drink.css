@@ -1,6 +1,6 @@
 #firstimage{
     margin-left: 400px;
-    margin-top: 180px;
+    margin-top: 50px;
 }
 
 .navbar-body {
@@ -15,7 +15,7 @@
     width: 524px;
     height: 30px;
     background: #222;
-    border-radius: 8px;
+    border-radius: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,3 +73,40 @@
     font-weight: bold;
 }
 
+.just-text{
+    margin-left: 390px;
+    padding-top: 95px;
+}
+#text{
+    background-color: #e9e3e3;
+    width: 320px;
+    padding-left: 9px;
+    border-radius: 20px;
+}
+
+#drink-name{
+    font-size: calc(2.375rem + 1.5vw);
+    margin-top: -185px;
+    margin-left: -50px;
+    color: #446a44;
+
+}
+
+#paragraph{
+    margin-left: -50px;
+}
+#secondimage{
+    margin-left: 1040px;
+    margin-top: -670px;
+    border-radius: 25px;
+    height: 140px;
+}
+#stars{
+    margin-left: 1040px;
+    margin-top: -570px;
+}
+#review{
+    margin-left: 1040px;
+    margin-top: -280px;
+    color: #446a44;
+}
