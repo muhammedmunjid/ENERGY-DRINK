@@ -1,7 +1,22 @@
-#firstimage{
-    margin-left: 400px;
-    margin-top: 50px;
-}
+
+#firstimage {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (min-width: 768px) {
+    #firstimage {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #firstimage {
+      width: 80%;
+      margin-left: 150px;
+    }
+  }
+  
 
 .navbar-body {
     display: flex;
@@ -14,7 +29,7 @@
     position: relative;
     width: 524px;
     height: 30px;
-    background: #222;
+    background: #cfcfcf;
     border-radius: 22px;
     display: flex;
     justify-content: center;
@@ -31,7 +46,7 @@
     display: inline-block;
     font-size: 1em;
     font-weight: 500;
-    color: #fff;
+    color: #78db96;
     text-decoration: none;
     padding: 1px 20px;
     margin-bottom: 10px;
@@ -44,7 +59,7 @@
     left: 0;
     width: 95px;
     height: 100%;
-    background: linear-gradient(45deg, #141414, #9c9c9c);
+    background: linear-gradient(45deg, #d4d4d4, #9c9c9c);
     border-radius: 8px;
 }
 
@@ -84,29 +99,173 @@
     border-radius: 20px;
 }
 
+@media (min-width: 500px) {
+    #text {
+      margin-left: 65px;
+    }
+  }
+
+@media (min-width: 550px) {
+    #text {
+      margin-left: 70px;
+    }
+  }
+
+@media (min-width: 600px) {
+    #text {
+      margin-left: 65px;
+    }
+  }
+
+@media (min-width: 768px) {
+    #text {
+      margin-left: 165px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #text {
+      margin-left: 400px;
+    }
+  }
+
 #drink-name{
     font-size: calc(2.375rem + 1.5vw);
-    margin-top: -185px;
-    margin-left: -50px;
     color: #446a44;
 
 }
 
+@media (min-width: 992px) {
+    .drink-name-div {
+        margin-top: -290px;
+        padding-bottom: 140px;
+        margin-left: -82px;
+    }
+  }
+
 #paragraph{
-    margin-left: -50px;
+    margin-left: 0px;
 }
+
 #secondimage{
-    margin-left: 1040px;
-    margin-top: -670px;
     border-radius: 25px;
     height: 140px;
 }
+
+@media (min-width: 500px) {
+    #secondimage {
+        margin-left: 360px;
+        margin-top: -565px;
+        width: 85px;
+        height: auto;
+    }
+  }
+
+@media (min-width: 550px) {
+    #secondimage {
+        margin-left: 400px;
+        margin-top: -550px;
+    }
+  }
+
+@media (min-width: 600px) {
+    #secondimage {
+        margin-left: 450px;
+        margin-top: -615px;
+    }
+  }
+
+@media (min-width: 768px) {
+    #secondimage {
+        margin-left: 670px;
+        margin-top: -990px;
+    }
+  }
+
+@media (min-width: 992px) {
+    #secondimage {
+        margin-left: 1050px;
+        margin-top: -1050px;
+    }
+  }
+
 #stars{
-    margin-left: 1040px;
-    margin-top: -570px;
+    margin-left: 1px;
 }
+
+@media (min-width: 500px) {
+    #stars {
+        margin-left: 360px;
+        margin-top: -500px;
+        width: 85px;
+        height: auto;
+    }
+  }
+
+@media (min-width: 550px) {
+    #stars {
+        margin-left: 400px;
+        margin-top: -480px;
+    }
+  }
+
+@media (min-width: 600px) {
+    #stars {
+        margin-left: 450px;
+        margin-top: -540px;
+    }
+  }
+
+@media (min-width: 768px) {
+    #stars {
+        margin-left: 670px;
+        margin-top: -915px;
+    }
+  }
+
+@media (min-width: 992px) {
+    #stars {
+        margin-left: 1050px;
+        margin-top: -975px;
+    }
+  }
+
 #review{
-    margin-left: 1040px;
-    margin-top: -280px;
     color: #446a44;
 }
+
+@media (min-width: 500px) {
+    #review {
+        margin-left: 360px;
+        margin-top: -255px;
+        font-size: small;
+    }
+  }
+
+@media (min-width: 550px) {
+    #review {
+        margin-left: 400px;
+        margin-top: -240px;
+    }
+  }
+
+@media (min-width: 600px) {
+    #review {
+        margin-left: 450px;
+        margin-top: -275px;
+    }
+  }
+
+@media (min-width: 768px) {
+    #review {
+        margin-left: 670px;
+        margin-top: -460px;
+    }
+  }
+
+@media (min-width: 992px) {
+    #review {
+        margin-left: 1050px;
+        margin-top: -490px;
+    }
+  }
